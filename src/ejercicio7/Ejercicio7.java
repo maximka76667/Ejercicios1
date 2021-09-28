@@ -12,7 +12,6 @@ public class Ejercicio7 {
 		System.out.print("Altura: ");
 		double altura = input.nextDouble();
 
-
 		System.out.println("Área: " + (altura * base / 2));
 
 		input.close();
