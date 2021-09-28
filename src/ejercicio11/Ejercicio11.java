@@ -9,9 +9,11 @@ public class Ejercicio11 {
 		Scanner entrada = new Scanner(System.in);
 		
 		System.out.print("Salario bruto: ");
-		double salario = entrada.nextDouble();
+		double salario_bruto = entrada.nextDouble();
 		
-		System.out.println();
+		double salario_neto = salario_bruto - (salario_bruto * IRPF);                   
+		
+		System.out.println("Salario neto: " + salario_neto);
 		
 		entrada.close();
 	}
